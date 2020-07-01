@@ -105,23 +105,28 @@
                     <h3>Newsletter</h3>
 
                     <label class="block">Select the newsletters you would like to receive</label>
-                    <input type="checkbox" name="newsletter_choice" value="html_news" id="html-news">
-                    <label for="html-news">HTML News</label>
-                    <br>
-                    <input type="checkbox" name="newsletter_choice" value="css_news" id="css-news">
-                    <label for="cs-news">CSS News</label>
-                    <br>
-                    <input type="checkbox" name="newsletter_choice" value="js_news" id="js-news">
-                    <label for="js-news">JavaScript News</label>
-                    <br>
+                    <div>
+                        <input type="checkbox" name="newsletter_choice" value="html_news" id="html-news">
+                        <label for="html-news">HTML News</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="newsletter_choice" value="css_news" id="css-news">
+                        <label for="cs-news">CSS News</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="newsletter_choice" value="js_news" id="js-news">
+                        <label for="js-news">JavaScript News</label>
+                    </div>
 
                     <label class="block">Newsletter format</label>
-                    <input type="radio" name="newsletter_format" id="html-format" value="html_format">
-                    <label for="html-format">HTML</label>
-                    <br>
-                    <input type="radio" name="newsletter_format" id="plaint-text-format" value="plain_text_format">
-                    <label for="plain-text-format">Plain Text</label>
-
+                    <div>
+                        <input type="radio" name="newsletter_format" id="html-format" value="html_format">
+                        <label for="html-format">HTML</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="newsletter_format" id="plaint-text-format" value="plain_text_format">
+                        <label for="plain-text-format">Plain Text</label>
+                    </div>
 
                     <label for="topics-comment" class="block">Other topics you'd like to hear about</label>
                     <textarea name="topics_comment" id="topics-comment" cols="30" rows="10" placeholder="Comments"></textarea>

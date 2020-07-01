@@ -169,12 +169,23 @@ textarea:focus {
     margin-bottom: 0;
 }
 
+.newsletter-preferences div {
+    display: flex;
+    align-items: center;
+}
+
 .newsletter-preferences label {
     display: inline-block;
 }
 
 .block {
     margin: 20px 0 5px 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+    margin-top: 5px;
 }
 
 textarea {
