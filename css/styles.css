@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+*:focus {
+    outline-color: #30475e;
+}
+
 body {
     height: auto;
     font-size: 10px;
@@ -154,6 +158,17 @@ button {
     padding: 10px;
 }
 
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="checkbox"],
+input[type="radio"],
+select,
+textarea,
+button {
+    transition: all 0.5s;
+}
+
 input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="email"]:focus,
@@ -162,7 +177,6 @@ input[type="radio"]:focus,
 select:focus,
 textarea:focus {
     background-color: #f5f5f5;
-    outline-color: #30475e;
 }
 
 .newsletter-preferences h3 {
