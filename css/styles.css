@@ -225,6 +225,12 @@ button {
     font-size: 1.3em;
 }
 
+button:hover,
+button:active {
+    background-color: #12947f;
+    cursor: pointer;
+}
+
 
 /* Footer */
 
