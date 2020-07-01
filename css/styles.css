@@ -210,7 +210,9 @@ textarea:focus {
 input[type="checkbox"],
 input[type="radio"] {
     margin-right: 5px;
-    margin-top: 5px;
+    margin-top: 15px;
+    width: 10px;
+    height: 10px;
 }
 
 textarea {
