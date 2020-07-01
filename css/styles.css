@@ -24,9 +24,13 @@ body {
     margin-right: auto;
 }
 
-h1,
-h2 {
-    text-align: center;
+.block {
+    display: block;
+    width: 100%;
+}
+
+hr {
+    margin: 20px 10px;
 }
 
 h1,
@@ -49,13 +53,11 @@ h3 {
     margin: 0 0 15px 0;
 }
 
-.block {
-    display: block;
-    width: 100%;
-}
-
-hr {
-    margin: 20px 10px;
+h1,
+h2,
+header,
+footer {
+    text-align: center;
 }
 
 
@@ -65,11 +67,6 @@ header,
 main,
 footer {
     width: 100%;
-}
-
-header,
-footer {
-    text-align: center;
 }
 
 main,
@@ -187,6 +184,7 @@ textarea {
 button {
     padding: 10px;
     background-color: #2fc4b2;
+    font-size: 1.3em;
 }
 
 
