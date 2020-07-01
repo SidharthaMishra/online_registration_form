@@ -145,6 +145,10 @@ button {
     border-radius: 5px;
 }
 
+input {
+    margin-bottom: 10px;
+}
+
 input::placeholder {
     text-align: right;
     font-weight: 100;
@@ -169,6 +173,11 @@ select,
 textarea,
 button {
     transition: all 0.5s;
+}
+
+input:active,
+input:focus {
+    font-size: 1.03em;
 }
 
 input[type="text"]:focus,
