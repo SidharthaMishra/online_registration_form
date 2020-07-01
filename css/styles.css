@@ -88,15 +88,20 @@ main {
 }
 
 .top-banner,
-button {
+button,
+.copyright {
     color: #fff;
+}
+
+.top-banner,
+footer {
+    background-color: #222831;
 }
 
 
 /* Header */
 
 .top-banner {
-    background-color: #222831;
     padding: 25px;
 }
 
