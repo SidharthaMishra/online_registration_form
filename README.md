@@ -24,9 +24,11 @@ _Mockup: Desktop Version_
 
 ![Resullts: Mobile 1](img/results/online_registration_form_mobile-1.png)
 ![Resullts: Mobile 2](img/results/online_registration_form_mobile-2.png)
+
 _Results: Mobile Version_
 
 ![Resullts: Desktop](img/results/online_registration_form_desktop.png)
+
 _Results: Desktop Version_
 
 ---
